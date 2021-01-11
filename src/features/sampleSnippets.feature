@@ -2,7 +2,7 @@ Feature: Sample Snippets test
     As a developer
     I should be able to use given text snippets
 
-    #@Isolate
+    @Isolate
     Scenario: open URL
         Given the url does not match "http://webdriverjs.christian-bromann.com/"
         And   I open the url "http://webdriverjs.christian-bromann.com/"

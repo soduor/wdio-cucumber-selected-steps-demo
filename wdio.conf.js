@@ -21,6 +21,8 @@ exports.config = {
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
     runner: 'local',
+    port: '9515',
+    path: '/',
     //
     // ==================
     // Specify Test Files
@@ -124,7 +126,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: [
+    services: ['chromedriver']/*[
         ['chromedriver', {}],
         ['static-server', {
             port: 3000,
@@ -132,7 +134,7 @@ exports.config = {
                 { mount: '/', path: './demo-app' },
             ],
         }],
-    ],
+    ]*/,
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -202,7 +204,7 @@ exports.config = {
         // <boolean> add cucumber tags to feature or scenario name
         tagsInTitle: false,
         // <number> timeout for step definitions
-        timeout: 20000,
+        timeout: 61000,
     },
 
     //

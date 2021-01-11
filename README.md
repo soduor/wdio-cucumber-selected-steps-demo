@@ -28,6 +28,9 @@ All of these steps can be used with `Given`, `When`, `Then` and `And`.
 - [`I log in on github as "([^"]+)" with password "([^"]+)"`](STEPS.md#githubLogin-step-c114a1c5)\
 -> Log in to github
 
+## playVideo
+
+
 ## userTable
 
 - [`I create a user "(User A|User B)"`](STEPS.md#userTable-step-c3346658)\

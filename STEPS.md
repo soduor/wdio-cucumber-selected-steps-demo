@@ -22,6 +22,8 @@ Log in to github
 * **Calls:**
   * `githubLogin()`
 
+## playVideo
+
 ## userTable
 
 ### `I create a user "(User A|User B)"`<a name="userTable-step-c3346658"></a>

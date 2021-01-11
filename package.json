@@ -4,6 +4,7 @@
   "scripts": {
     "docs": "stepdoc",
     "test": "wdio wdio.conf.js",
+    "bug":  "wdio wdio.conf.js --cucumberOpts.tagExpression='@bug'",
     "test:ci": "wdio wdio.HEADLESS.conf.js"
   },
   "author": "Santo Pfingsten (Jambit GmbH)",
@@ -22,7 +23,7 @@
     "@wdio/spec-reporter": "^6.4.0",
     "@wdio/static-server-service": "^6.4.0",
     "@wdio/sync": "^6.4.6",
-    "chromedriver": "^85.0.0",
+    "chromedriver": "^87.0.1",
     "cucumber": "^6.0.5",
     "typescript": "^4.0.2",
     "wdio-chromedriver-service": "^6.0.4",
